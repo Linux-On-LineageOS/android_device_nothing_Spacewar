@@ -394,3 +394,4 @@ PRODUCT_PACKAGES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libwfdaac_vendor
+$(call inherit-product, vendor/lindroid/lindroid.mk)
